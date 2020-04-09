@@ -1,0 +1,330 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage3.master.cs" Inherits="MasterPage3" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .style1
+        {
+            width: 90%;
+        }
+        .style2
+        {
+            width: 100%;
+        }
+        .style13
+        {
+            font-weight: normal;
+        }
+        .style14
+        {
+            text-decoration: none;
+        }
+        .style15
+        {
+            color: #000000;
+        }
+        .style3
+        {
+            width: 620px;
+        }
+        .style11
+        {
+            font-weight: 700;
+        }
+        .style16
+        {
+            width: 119px;
+        }
+        </style>
+</head>
+<body style="margin-top: 112px">
+    <form id="form1" runat="server">
+    <div>
+        <table align="center" class="style1">
+            <tr>
+                <td width="194" class="style16" style="width: 194px">
+                    <asp:ImageButton ID="ImageButton2" runat="server" Height="83px" 
+                        ImageUrl="~/logo_eshop.png" onclick="ImageButton2_Click" Width="194px" />
+                </td>
+                <td width="642">
+                    <asp:Image ID="Image2" runat="server" Height="108px" 
+                        ImageUrl="~/Images/eshop-banner.jpg" Width="642px" 
+                        style="margin-left: 0px" />
+                </td>
+                <td>
+                    <table cellspacing="0" class="style2">
+                        <tr>
+                            <td>
+                                &nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td style="font-weight: 700; color: #0066FF">
+                                Welcome</td>
+                        </tr>
+                        <tr>
+                            <td style="text-align: center">
+                                <asp:Label ID="Label1" runat="server"></asp:Label>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                &nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td style="text-align: center">
+                                <asp:ImageButton ID="ImageButton3" runat="server" ImageUrl="~/index.jpg" 
+                                    onclick="ImageButton3_Click" Width="100px" />
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            <tr>
+                <td class="style16">
+                    &nbsp;</td>
+                <td>
+                    &nbsp;</td>
+                <td style="text-align: center">
+                    &nbsp;</td>
+            </tr>
+            <tr>
+                <td colspan="3">
+                    <asp:Menu ID="Menu1" runat="server" BackColor="#0033CC" 
+                        Orientation="Horizontal" RenderingMode="Table" Width="80%" 
+                        DynamicHorizontalOffset="2" Font-Names="Verdana" Font-Size="Medium" 
+                        ForeColor="#7C6F57" Height="30px" onmenuitemclick="Menu1_MenuItemClick" 
+                        StaticSubMenuIndent="10px">
+                        <DynamicHoverStyle BackColor="#7C6F57" ForeColor="White" />
+                        <DynamicMenuItemStyle HorizontalPadding="5px" VerticalPadding="2px" />
+                        <DynamicMenuStyle BackColor="#F7F6F3" />
+                        <DynamicSelectedStyle BackColor="#5D7B9D" />
+                        <Items>
+                            <asp:MenuItem Text="Home" Value="Home" NavigateUrl="~/Admin.aspx"></asp:MenuItem>
+                            <asp:MenuItem Text="ADD" Value="Search">
+                                <asp:MenuItem Text="ADD CATEGORY" Value="ADD CATEGORY" 
+                                    NavigateUrl="~/AddCategory.aspx"></asp:MenuItem>
+                                <asp:MenuItem Text="ADD BRAND" Value="ADD BRAND" NavigateUrl="~/AddBrand.aspx"></asp:MenuItem>
+                                <asp:MenuItem Text="ADD PRODUCT" Value="ADD PRODUCT" 
+                                    NavigateUrl="~/AddProduct2.aspx"></asp:MenuItem>
+                            </asp:MenuItem>
+                            <asp:MenuItem Text="Delete" Value="Delete">
+                                <asp:MenuItem Text="DELETE CATEGORY" Value="DELETE CATEGORY" 
+                                    NavigateUrl="~/DeleteCategory.aspx"></asp:MenuItem>
+                                <asp:MenuItem Text="DELETE BRAND" Value="DELETE BRAND" 
+                                    NavigateUrl="~/DeleteBrand.aspx"></asp:MenuItem>
+                                <asp:MenuItem Text="DELETE PRODUCT" Value="DELETE PRODUCT" 
+                                    NavigateUrl="~/DeleteProduct.aspx"></asp:MenuItem>
+                            </asp:MenuItem>
+                            <asp:MenuItem Text="EDIT" Value="EDIT">
+                                <asp:MenuItem Text="EDIT CATEGORY" Value="EDIT CATEGORY" 
+                                    NavigateUrl="~/EditCategory.aspx"></asp:MenuItem>
+                                <asp:MenuItem Text="EDIT BRAND" Value="EDIT BRAND" 
+                                    NavigateUrl="~/EditBrand.aspx"></asp:MenuItem>
+                                <asp:MenuItem Text="EDIT PRODUCT" Value="EDIT PRODUCT" 
+                                    NavigateUrl="~/EditProducts.aspx"></asp:MenuItem>
+                            </asp:MenuItem>
+                            <asp:MenuItem Text="SHOW DATA" Value="SHOW DATA" 
+                                NavigateUrl="ShowData.aspx"></asp:MenuItem>
+                            <asp:MenuItem Text="ORDER LIST" Value="Order List" NavigateUrl="~/Order.aspx"></asp:MenuItem>
+                            <asp:MenuItem 
+                                NavigateUrl="~/UserDetails.aspx" Text="USER LIST" 
+                                Value="USER LIST"></asp:MenuItem>
+                            <asp:MenuItem NavigateUrl="~/Query.aspx" Text="QUERY" Value="QUERY">
+                            </asp:MenuItem>
+                        </Items>
+                        <StaticHoverStyle BackColor="#0033CC" ForeColor="White" />
+                        <StaticMenuItemStyle HorizontalPadding="2px" VerticalPadding="2px" />
+                        <StaticMenuStyle BackColor="#CCCCCC" BorderStyle="Groove" 
+                            HorizontalPadding="2px" Width="1200px" />
+                        <StaticSelectedStyle BackColor="#0033CC" />
+                    </asp:Menu>
+                </td>
+            </tr>
+            <tr>
+                <td class="style16">
+                    &nbsp;</td>
+                <td>
+                    &nbsp;</td>
+                <td style="text-align: center">
+                    &nbsp;</td>
+            </tr>
+            <tr>
+                <td class="style16">
+                    &nbsp;</td>
+                <td>
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+                </td>
+                <td style="text-align: center">
+                    &nbsp;</td>
+            </tr>
+            <tr>
+                <td class="style16">
+                    &nbsp;</td>
+                <td>
+                    &nbsp;</td>
+                <td style="text-align: center">
+                    &nbsp;</td>
+            </tr>
+            <tr>
+                <td class="style16">
+                    &nbsp;</td>
+                <td style="text-align: center">
+                    Developed By : Mrinmoy,Parvez,Jaya,Sunny,Sonali 
+                </td>
+                <td style="text-align: center">
+                    &nbsp;</td>
+            </tr>
+            <tr>
+                <td class="style16">
+                    &nbsp;</td>
+                <td style="text-align: center">
+                    &nbsp;</td>
+                <td style="text-align: center">
+                    &nbsp;</td>
+            </tr>
+            <tr>
+                <td colspan="3" style="text-align: center">
+                                                        <h2>
+                                                            Our Vision</h2>
+                                                        </td>
+            </tr>
+            <tr>
+                <td colspan="3" style="text-align: center">
+                                                        <p>
+                                                            <em>Our vision, at e-SHOP, is to be Earth&#39;s most customer centric company; to 
+                                                            build a place where people can come to find and discover virtually anything they 
+                                                            want to buy online. With e-SHOP.in, we endeavour to build that same destination 
+                                                            in India by giving customers more of what they want – vast selection, low 
+                                                            prices, fast and reliable delivery, and a trusted and convenient experience – 
+                                                            and provide sellers a world-class e-commerce platform. </em>
+                                                        </p>
+                                                        <p>
+                                                            <em>Customers can now</em> <em> shop with confidece from any seller on e-SHOP.in and benefit 
+                                                            from a safe and secure online ordering experience, convenient electronic 
+                                                            payments and cash on delivery, easy returns, e-SHOP’s customer service with 24x7 
+                                                            support, and a globally recognised and comprehensive purchase protection 
+                                                            provided by e-SHOP’s A-to-Z guarantee. </em>
+                                                        </p>
+                                                        <p>
+                                                            <em>We launched with Books and Movies&amp;TV and have expanded our offerings to include the 
+                                                            Kindle family of E_Reader, Tables and eBook; Mobiles&amp;Accesaries; 
+                                                            Cameras&amp;Photogrphy and </em>
+                                                            <span class="style13">
+                                                            <a href="http://www.e-SHOP.in/mp3-media-players/b/ref=gw_smedplayer?ie=UTF8&amp;node=1389433031&amp;pf_rd_m=A1VBAL9TL5WCBF&amp;pf_rd_s=center-8&amp;pf_rd_r=0RYX3N2BMVTE5S9CJ32P&amp;pf_rd_t=101&amp;pf_rd_p=410222827&amp;pf_rd_i=1320006031" 
+                                                                class="style14">
+                                                            <em><span class="style15"><strong>Portable Media Players</strong></span></em></a></span><em>. </em>It is still “Day 1” and we will 
+                                                            relentlessly focus on expanding selection and raising the bar for customer 
+                                                            experience in India.
+                                                        </p>
+                                                        <p>
+                                                            &nbsp;</p>
+                                                        <p>
+                                                            <strong><em>Our Sponcers</em></strong></p>
+                                                        </td>
+            </tr>
+            <tr>
+                <td colspan="3" style="text-align: center">
+                                                        <table align="center" class="style3">
+                                                            <tr>
+                                                                <td>
+                                                                    <asp:Image ID="Image28" runat="server" Height="50px" 
+                                                                        ImageUrl="~/Images/brands/1-1adidas.jpg" />
+                                                                </td>
+                                                                <td>
+                                                                    <asp:Image ID="Image29" runat="server" Height="50px" 
+                                                                        ImageUrl="~/Images/Brands/10-1fcuk_2 (2).jpg" />
+                                                                </td>
+                                                                <td>
+                                                                    <asp:Image ID="Image30" runat="server" Height="50px" 
+                                                                        ImageUrl="~/Images/Brands/18-1casio_color (2).jpg" />
+                                                                </td>
+                                                                <td>
+                                                                    <asp:Image ID="Image31" runat="server" Height="50px" 
+                                                                        ImageUrl="~/Images/Brands/2-1nike_color_2.jpg" />
+                                                                </td>
+                                                                <td>
+                                                                    <asp:Image ID="Image32" runat="server" Height="50px" 
+                                                                        ImageUrl="~/Images/brands/13-1biba_color.jpg" />
+                                                                </td>
+                                                                <td>
+                                                                    <asp:Image ID="Image27" runat="server" Height="50px" 
+                                                                        ImageUrl="~/Images/Brands/8-1lee_2.jpg" />
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td class="style11">
+                                                                    <asp:Image ID="Image10" runat="server" Height="50px" 
+                                                                        ImageUrl="~/Images/brands/15-1Elle.jpg" />
+                                                                </td>
+                                                                <td class="style11">
+                                                                    <asp:Image ID="Image22" runat="server" Height="50px" 
+                                                                        ImageUrl="~/Images/Brands/Calvin-Klein-Jeans.jpg" />
+                                                                </td>
+                                                                <td class="style11">
+                                                                    <asp:Image ID="Image26" runat="server" Height="50px" 
+                                                                        ImageUrl="~/Images/Brands/miss-bennett.jpg" />
+                                                                </td>
+                                                                <td class="style11">
+                                                                    <asp:Image ID="Image13" runat="server" Height="50px" 
+                                                                        ImageUrl="~/Images/Brands/5-1fila_color.jpg" />
+                                                                </td>
+                                                                <td class="style11">
+                                                                    <asp:Image ID="Image14" runat="server" Height="50px" 
+                                                                        ImageUrl="~/Images/Brands/7-1u-s-polo_color_2.jpg" />
+                                                                </td>
+                                                                <td class="style11">
+                                                                    <asp:Image ID="Image15" runat="server" Height="50px" 
+                                                                        ImageUrl="~/Images/Brands/9-1wrangler_2 (2).jpg" />
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>
+                                                                    <asp:Image ID="Image20" runat="server" Height="50px" 
+                                                                        ImageUrl="~/Images/brands/4-1woodland_color.jpg" />
+                                                                </td>
+                                                                <td>
+                                                                    <asp:Image ID="Image21" runat="server" Height="50px" 
+                                                                        ImageUrl="~/Images/brands/5-1fila_color.jpg" />
+                                                                </td>
+                                                                <td>
+                                                                    <asp:Image ID="Image18" runat="server" Height="50px" 
+                                                                        ImageUrl="~/Images/brands/23-1levis_color.jpg" />
+                                                                </td>
+                                                                <td>
+                                                                    <asp:Image ID="Image19" runat="server" Height="50px" 
+                                                                        ImageUrl="~/Images/brands/3-1puma_color.jpg" />
+                                                                </td>
+                                                                <td>
+                                                                    &nbsp;</td>
+                                                                <td>
+                                                                    &nbsp;</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>
+                                                                    &nbsp;</td>
+                                                                <td>
+                                                                    &nbsp;</td>
+                                                                <td>
+                                                                    &nbsp;</td>
+                                                                <td>
+                                                                    &nbsp;</td>
+                                                                <td>
+                                                                    &nbsp;</td>
+                                                                <td>
+                                                                    &nbsp;</td>
+                                                            </tr>
+                                                        </table>
+                                                    </td>
+            </tr>
+        </table>
+    </div>
+    </form>
+</body>
+</html>

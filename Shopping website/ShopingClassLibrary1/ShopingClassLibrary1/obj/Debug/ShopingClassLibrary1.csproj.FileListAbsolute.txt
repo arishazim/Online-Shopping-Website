@@ -1,0 +1,30 @@
+C:\Users\Washif\Desktop\ShopingClassLibrary1\ShopingClassLibrary1\bin\Debug\ShopingClassLibrary1.dll
+C:\Users\Washif\Desktop\ShopingClassLibrary1\ShopingClassLibrary1\bin\Debug\ShopingClassLibrary1.pdb
+C:\Users\Washif\Desktop\ShopingClassLibrary1\ShopingClassLibrary1\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Washif\Desktop\ShopingClassLibrary1\ShopingClassLibrary1\obj\Debug\ShopingClassLibrary1.dll
+C:\Users\Washif\Desktop\ShopingClassLibrary1\ShopingClassLibrary1\obj\Debug\ShopingClassLibrary1.pdb
+C:\Users\Parvez\Documents\ShopingClassLibrary1\ShopingClassLibrary1\bin\Debug\ShopingClassLibrary1.dll
+C:\Users\Parvez\Documents\ShopingClassLibrary1\ShopingClassLibrary1\bin\Debug\ShopingClassLibrary1.pdb
+C:\Users\Parvez\Documents\ShopingClassLibrary1\ShopingClassLibrary1\obj\Debug\ShopingClassLibrary1.csprojResolveAssemblyReference.cache
+C:\Users\Parvez\Documents\ShopingClassLibrary1\ShopingClassLibrary1\obj\Debug\ShopingClassLibrary1.dll
+C:\Users\Parvez\Documents\ShopingClassLibrary1\ShopingClassLibrary1\obj\Debug\ShopingClassLibrary1.pdb
+C:\Users\Mrinmoy\Documents\ShopingClassLibrary1\ShopingClassLibrary1\bin\Debug\ShopingClassLibrary1.dll
+C:\Users\Mrinmoy\Documents\ShopingClassLibrary1\ShopingClassLibrary1\bin\Debug\ShopingClassLibrary1.pdb
+C:\Users\Mrinmoy\Documents\ShopingClassLibrary1\ShopingClassLibrary1\obj\Debug\ShopingClassLibrary1.csprojResolveAssemblyReference.cache
+C:\Users\Mrinmoy\Documents\ShopingClassLibrary1\ShopingClassLibrary1\obj\Debug\ShopingClassLibrary1.dll
+C:\Users\Mrinmoy\Documents\ShopingClassLibrary1\ShopingClassLibrary1\obj\Debug\ShopingClassLibrary1.pdb
+C:\Users\Parvez\Desktop\ShopingClassLibrary1\ShopingClassLibrary1\bin\Debug\ShopingClassLibrary1.dll
+C:\Users\Parvez\Desktop\ShopingClassLibrary1\ShopingClassLibrary1\bin\Debug\ShopingClassLibrary1.pdb
+C:\Users\Parvez\Desktop\ShopingClassLibrary1\ShopingClassLibrary1\obj\Debug\ShopingClassLibrary1.csprojResolveAssemblyReference.cache
+C:\Users\Parvez\Desktop\ShopingClassLibrary1\ShopingClassLibrary1\obj\Debug\ShopingClassLibrary1.dll
+C:\Users\Parvez\Desktop\ShopingClassLibrary1\ShopingClassLibrary1\obj\Debug\ShopingClassLibrary1.pdb
+C:\Users\Mrinmoy\Desktop\ShopingClassLibrary1\ShopingClassLibrary1\bin\Debug\ShopingClassLibrary1.dll
+C:\Users\Mrinmoy\Desktop\ShopingClassLibrary1\ShopingClassLibrary1\bin\Debug\ShopingClassLibrary1.pdb
+C:\Users\Mrinmoy\Desktop\ShopingClassLibrary1\ShopingClassLibrary1\obj\Debug\ShopingClassLibrary1.csprojResolveAssemblyReference.cache
+C:\Users\Mrinmoy\Desktop\ShopingClassLibrary1\ShopingClassLibrary1\obj\Debug\ShopingClassLibrary1.dll
+C:\Users\Mrinmoy\Desktop\ShopingClassLibrary1\ShopingClassLibrary1\obj\Debug\ShopingClassLibrary1.pdb
+D:\CODING\Shopping website\ShopingClassLibrary1\ShopingClassLibrary1\bin\Debug\ShopingClassLibrary1.dll
+D:\CODING\Shopping website\ShopingClassLibrary1\ShopingClassLibrary1\bin\Debug\ShopingClassLibrary1.pdb
+D:\CODING\Shopping website\ShopingClassLibrary1\ShopingClassLibrary1\obj\Debug\ShopingClassLibrary1.csprojResolveAssemblyReference.cache
+D:\CODING\Shopping website\ShopingClassLibrary1\ShopingClassLibrary1\obj\Debug\ShopingClassLibrary1.dll
+D:\CODING\Shopping website\ShopingClassLibrary1\ShopingClassLibrary1\obj\Debug\ShopingClassLibrary1.pdb
